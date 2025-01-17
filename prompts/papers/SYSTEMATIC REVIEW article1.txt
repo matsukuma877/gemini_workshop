@@ -1,0 +1,439 @@
+SYSTEMATIC REVIEW article
+Front. Microbiol., 30 August 2024
+Sec. Microbial Symbioses
+Volume 15 - 2024 | https://doi.org/10.3389/fmicb.2024.1416385
+
+Global research trends on the associations between the microbiota and lung cancer: a visualization bibliometric analysis (2008–2023)
+Maoyuan Zhao&#x;Maoyuan Zhao1†Jie Tian,&#x;Jie Tian2,3†Wang HouWang Hou4Liyuan YinLiyuan Yin1Weimin Li,,
+Weimin Li4,5,6*
+1Lung Cancer Center, Frontiers Science Center for Disease-Related Molecular Network, West China Hospital, Sichuan University, Chengdu, Sichuan, China
+2Department of Thoracic Surgery, West China Hospital, Sichuan University, Chengdu, Sichuan, China
+3Lung Cancer Center, West China Hospital, Sichuan University, Chengdu, Sichuan, China
+4Department of Respiratory and Critical Care Medicine, Frontiers Science Center for Disease-Related Molecular Network, West China Hospital, Sichuan University, Chengdu, Sichuan, China
+5Precision Medicine Research Center, West China Hospital, Sichuan University, Chengdu, Sichuan, China
+6Research Units of West China, Chinese Academy of Medical Sciences, West China Hospital, Chengdu, Sichuan, China
+Numerous papers have been published on the microbiota in lung cancer in recent years. However, there is still a lack of bibliometric analysis of the microbiota in lung cancer in this field. Our paper did bibliometric analyses and elucidated the knowledge structure and study hotspots related to the microbiota in lung cancer patients. We screened publications reporting on the microbiota in lung cancer from 2008 to 2023 from the Web of Science Core Collection (WoSCC) database, and carried out bibliometric analyses by the application of the VOSviewers, CiteSpace and R package “bibliometrix.” The 684 documents enrolled in the analysis were obtained from 331 institutions in 67 regions by 4,661 authors and were recorded in 340 journals. Annual papers are growing rapidly, and the countries of China, the United States and Italy are contributing the most to this area of research. Zhejiang University is the main research organization. Science and Cancer had significant impacts on this area. Zhang Yan had the most articles, and the Bertrand Routy had the most co-cited times. Exploring the mechanism of action of the lung and/or gut microbiota in lung cancer and therapeutic strategies involving immune checkpoint inhibitors in lung cancer are the main topics. Moreover, “gut microbiota,” “immunotherapy,” and “short-chain fatty acids” are important keywords for upcoming study hotspots. In conclusion, microbiota research offers promising opportunities in lung cancer, with pivotal studies exploring the mechanisms that link lung and gut microbiota to therapeutic strategies, particularly through immune checkpoint inhibitors. Moreover, the gut-lung axis emerges as a novel target for innovative treatments. Further research is essential to unravel the detailed mechanisms of this connection.
+
+Introduction
+According to recent estimates from 2023, lung cancer continues to account for approximately 1.8 million fatalities globally, underscoring its position as the leading cause of cancer-related deaths worldwide (World Health Organization, 2023). The intricate dance between genetic predispositions, environmental influences, and the microbiota’s role underscores the multifaceted nature of cancer etiology (Shieh et al., 2016; Goto, 2022). The human body’s microbial communities, integral to the host’s microenvironmental stability, serve as double-edged swords in health and disease. While essential for maintaining physiological homeostasis, their imbalance has been implicated in a spectrum of pathologies, including oncogenesis (Garrett, 2015; Zitvogel et al., 2018). The revelation that microbial dysbiosis can influence cancer development through various mechanisms—ranging from inflammation modulation and carcinogenic metabolite production to genotoxicity and cell cycle disruption—highlights the microbiome’s critical role in cancer (Mao et al., 2018). Recent advancements in next-generation sequencing (NGS) have debunked the once-held belief that lung tissues are sterile, uncovering a complex microbiome within the lungs (Segal et al., 2013).
+
+Comparative analyses of the lung and oropharyngeal microbiotas in both healthy controls and lung cancer patients reveal a predominance of similar bacterial phyla, such as Firmicutes, Proteobacteria, and Bacteroidetes (Morris et al., 2013; Dickson et al., 2015; Bassis et al., 2015). However, the microbial ecosystems in lung cancer patients exhibit dysbiosis, with altered abundances of these phyla, particularly an increase in Proteobacteria, which may contribute to the tumor microenvironment and cancer progression (Morris et al., 2013; Bassis et al., 2015; Marsh et al., 2016). These findings suggest the presence of low-density, diverse microbial ecosystems within lung tissue, bronchoalveolar lavage (BAL) fluid, and sputum, maintained through a delicate balance of microbial migration and clearance (Morris et al., 2013; Bassis et al., 2015; Marsh et al., 2016). Furthermore, the lung microbiota has been linked to the risk of chronic obstructive pulmonary disease (COPD), with specific genera such as Prevotella, Streptococcus, and Haemophilus showing significant variations between COPD patients and healthy controls, especially during COPD exacerbations (Kim et al., 2017; Sze et al., 2012; Garcia-Nuñez et al., 2014). Moreover, the association between certain microorganisms and an increased risk of lung cancer (Garrett, 2015), alongside the correlation between antibiotic use and lung cancer susceptibility, underscores the impact of microbial imbalances on cancer risk (Kim et al., 2023). Additionally, the inflammation induced by microorganisms, via mechanisms like toll-like receptor activation, underscores a pathway through which the microbiota can influence lung carcinoma development (Chen et al., 2022; Orlacchio and Mazzone, 2021).
+
+Understanding the global research landscape on the microbiota’s role in lung cancer is crucial, given its significant implications for identifying potential therapeutic targets and biomarkers. In our study, we utilized CiteSpace and VOSviewer as the primary tools for conducting bibliometric analysis and visualizing the literature landscape related to lung cancer and the microbiota. These software tools were instrumental in applying both quantitative and qualitative methodologies to map out key research trends, collaboration networks, and emerging topics within the field. Previous studies, including the work by Sun et al. (Alam et al., 2024), have explored broader relationships involving the gut microbiota and lung diseases. In contrast, our study specifically examines research trends and collaborations focused on the microbiota associated with lung cancer. By narrowing the focus to this specific area, our analysis reveals unique patterns and emerging trends that contribute to a deeper understanding of the microbiota’s role in lung cancer development and progression.
+
+This study not only aims to consolidate the existing body of knowledge but also to identify research hotspots and gaps that can guide future investigations. By doing so, it provides valuable insights that could inform subsequent research efforts and support the development of microbiota-targeted therapies or diagnostics, ultimately enhancing the management and treatment of lung cancer.
+
+Materials and methods
+Publication search
+Our search strategy commenced with an exhaustive review of literature indexed in the Web of Science Core Collection (WoSCC) database. Utilizing the search query “{lung cancer} AND {microbiota},” we identified publications dated from January 1, 2003, to October 31, 2023. An initial tally yielded 730 studies. We refined our pool by selecting only “Article” and “Review Article” types, which resulted in 690 publications. Further screening for English-language papers led to the exclusion of 6 studies, culminating in a final count of 684 eligible studies for inclusion (Figure 1).
+
+Figure 1
+www.frontiersin.org
+Figure 1. Publications screening flowchart.
+
+Data analysis
+To dissect the amassed literature, we employed VOSviewer (version 1.6.19) and CiteSpace (version 6.2 R4), alongside the R package “bibliometrix” (version 4.3.1), for an in-depth bibliometric analysis. VOSviewer facilitated the construction of bibliometric networks, offering visual representations of the interplay between countries, institutions, journals, and authors, based on data such as citations, co-citations, bibliographic couplings, and co-authorship ties. This software visualizes the networks through nodes representing different entities (e.g., keywords, regions, institutions) and lines indicating the strength of relationships (e.g., collaboration or co-citation). The node size and color denote the frequency and category of the entities, respectively. CiteSpace was utilized to generate a dual-map overlay of sources and references, highlighting citation bursts and evolving trends within the field. This analysis provided a macroscopic view of the literature’s foundation and emerging focal points (Synnestvedt et al., 2005; Pan et al., 2018). Further, the “bibliometrix” R package enabled the examination of trending topics and the creation of global distribution maps, offering insights into the geographical spread of research activity (Aria and Cuccurullo, 2017). Complementary to these tools, Microsoft Office Excel 2021 supported our quantitative analysis, facilitating the organization and presentation of publication data.
+
+Results
+Overview of publications
+Our bibliometric analysis incorporated 684 documents, originating from 331 institutions across 67 countries, authored by 4,661 researchers, and published in 340 journals. The timeline for these publications spanned from 2008 to 2023, with the inaugural paper emerging in 2008. Notably, a hiatus in publications was observed in the subsequent 2 years. The early phase (2011–2015) witnessed modest activity, with annual outputs ranging from 2 to 9 papers. A significant uptick in publications began in 2016, indicating a burgeoning interest in this field. The period from 2016 to 2022 was characterized by an average annual growth rate of 45.39% and an average output of 76.57 papers. This momentum continued, with 2023 seeing 121 publications as of October 31, 2023 (Figure 2A). Moreover, we observed distinct focuses on the lung microbiota, the gut microbiota, and studies that consider both. As depicted in Figure 2B, 189 studies were dedicated exclusively to the lung microbiota, 466 studies focused on the gut microbiota, and 35 studies explored the relationship between both. This distribution underscores the significant research emphasis on the lung/gut microbiota, while also highlighting the interdisciplinary studies that investigate both microbiota.
+
+Figure 2
+www.frontiersin.org
+Figure 2. Annual output of research of microbiota in lung cancer. (A) The visualization by Venn diagram provides a comprehensive overview of the existing research landscape, illustrating the areas of focus within the microbiota-lung cancer field (B).
+
+Geographic and institutional contributions
+Our analysis on lung cancer and microbiota literature spans across 331 institutions from 67 countries. We mapped the global research distribution, revealing significant contributions from regions across Europe, Asia, and North America (Figure 3). The forefront of this research is led by China (n = 279), the United States (n = 163), Italy (n = 60), France (n = 40), and Japan (n = 38). Notably, publications from North American and European entities exhibit a higher citation rate per publication compared to those from Asian counterparts. It is important to note that while citation rates serve as an indicator of the influence and impact of research, they are an indirect measure and do not directly assess the biological associations between the microbiota and lung cancer. Higher citation rates may suggest that the work has contributed significantly to advancing our understanding of these associations, but they do not alone establish a direct link. Further biological and clinical studies are necessary to explore these connections in depth.
+
+Figure 3
+www.frontiersin.org
+Figure 3. The geographical distribution (A) and visualization of countries (B) on research of microbiota in lung cancer.
+
+Table 1 highlights that the majority (70%) of the leading institutions are based in China, the United States, Ireland, and Italy. Among these, Zhejiang University (n = 29), the National College of Ireland (n = 17), and Shanghai Jiao Tong University (n = 16) emerged as the top contributors. A collaboration network analysis among 53 select institutions showed a particularly strong partnership among Zhejiang University, the University of Chinese Academy of Science, and Zhejiang Chinese Medical University. Moreover, six organizations, including the University of Chinese Academy of Sciences, National College of Ireland, Harvard Medical School, Zhejiang University, Inserm, and Shanghai Jiao Tong University, demonstrated a significant impact through both prolific publication records and extensive collaborations (Figure 4).
+
+Table 1
+www.frontiersin.org
+Table 1. Top 10 countries and organizations on the research of microbiota in lung cancer.
+
+Figure 4
+www.frontiersin.org
+Figure 4. The visualization of institutions on research of microbiota in lung cancer. This study selected 53 institutions based on the minimum number of publications equal to 5 for visualization, and constructed a collaborative network based on the number and relationship of publications of each institution.
+
+Journal contributions and co-citations
+The discourse on microbiota in lung cancer encompasses 340 journals, with the top 15 outlined in Table 2. Cancers leads with the highest contribution (n = 27), followed by the International Journal of Molecular Science (n = 26), Frontiers in Oncology (n = 22), Frontiers in Immunology (n = 20), and Frontiers in Microbiology (n = 14). Among these, Seminars in Cancer Biology boasts the highest impact factor (IF = 14.5), with the Journal of Translational Medicine following (IF = 7.4). A collaborative mapping of 37 selected journals revealed strong citation connections, particularly Cancers with the International Journal of Molecular Sciences, Frontiers in Oncology, Frontiers in Immunology other (Figure 5A).
+
+Table 2
+www.frontiersin.org
+Table 2. Top 15 journals and co-cited journals on the research of microbiota in lung cancer.
+
+Figure 5
+www.frontiersin.org
+Figure 5. The visualization of journals (A) and co-cited journals (B) on research of microbiota in lung cancer. (A) This study enrolled 37 journals based on the minimum number of relevant publications equal to four and mapped the journal network. (B) More than 300 co-citation journals (33 journals) were filtered to map the co-citation network.
+
+In terms of co-citations, 80% of the top 15 journals were cited over 500 times, with Science (co-citation = 2,272) leading, followed by Nature (co-citation = 1,321) and PLoS One (co-citation = 1,256). The New England Journal of Medicine stands out with the highest impact factor (158.5), closely followed by Nature Medicine (IF = 82.9), Nature (IF = 64.8), and Cell (IF = 64.5). A co-citation network from 33 journals underscored the interconnectedness of the field, especially between Science and journals like Nature, Cell, Nature Medicine, and Cancer Research (Figure 5B). The dual-map overlay illustrates the predominant citation trajectory from publications in Molecular/Biology/Genetics and Health/Nursing/Medicine to those in the Molecular/Biology/Immunology sector (Figure 6), highlighting a significant cross-disciplinary engagement (Wu et al., 2022)
+
+Figure 6
+www.frontiersin.org
+Figure 6. The dual-map overlay of journals on research of microbiota in lung cancer, with clusters of citing journals on the left and clusters of cited journals on the right.
+
+Leading contributors and collaborative efforts
+The collective insights into the microbiota’s role in lung cancer have been shaped by the contributions of 4,661 authors. Among these, the top 10 authors each have authored at least five publications (Table 3). A collaborative map, based on the volume of research output, illustrates the network of these prolific authors (Figure 7A). Zhang Yan emerges as a leading figure with the highest number of publications, followed closely by notable researchers such as Bianchi Francesca, Le Noci Valentino, Routy Bertrand, Sfondrini Lucia, Sommariva Michele, and Tagliabue Elda. This network also highlights extensive collaborations, particularly among researchers like Sommariva Michele, Bianchi Francesca, Sfondrini Lucia, and Guglielmetti Simone.
+
+Table 3
+www.frontiersin.org
+Table 3. Top 10 authors and co-cited authors on research of microbiota in lung cancer.
+
+Figure 7
+www.frontiersin.org
+Figure 7. The visualization of authors (A) and co-cited authors (B) on research of microbiota in lung cancer. (A) A collaborative network was constructed based on researchers whose number of published documents is more than or equal to three. (B) This study selected 47 authors to map the co-citation network based on minimum co-citations equals to 50.
+
+As shown in Table 3, we found that all 10 authors were co-cited at least 100 times; of these, Routy B (n = 238) was the most co-cited author, followed closely by Dickson RP (n = 228) and Gopalakrishnan V (n = 201). Furthermore, we constructed a co-citation network selected from 47 authors on the basis of parameter settings. As shown in Figure 7B, we also found numerous close collaborations among multiple co-cited researchers, for instance, Routy B and Gopalakrishnan V, Dickson RP and Huang YJ.
+
+Top co-cited references
+Our research database encompasses 39,752 co-cited references, with the top 10 most influential references identified as being cited more than 100 times each (Supplementary Table 1). A co-citation map of 30 significant references—each cited at least 45 times—demonstrates the intricate connections within this field (Figure 8). In addition, “Routy H, 2018, Science” has closely co-cited collaborations with “Gopalakrishnan V, 2018, science,” “Sivan A, 2015, science,” “Matson V, 2018, science,” “Vétizou M, 2015, science.”
+
+Figure 8
+www.frontiersin.org
+Figure 8. The visualization of co-cited references on research of microbiota in lung cancer.
+
+References with citation bursts
+In the study, we utilized CiteSpace software to conduct a citation burst analysis, which reveals references experiencing a sharp increase in citations within a specified period, signifying their significant impact. This analysis yielded a network of references characterized by pronounced citation bursts, from which we discerned the 20 most prevalent instances, marked by red bars. These bursts spanned from 2014 to 2018, indicating a concentrated period of heightened interest. Among these, two references stood out with burst strengths exceeding 20. The foremost reference, “Commensal Bifidobacterium promotes antitumor immunity and facilitates anti-PD-L1 efficacy” by Ayelet Sivan et al., demonstrated a burst strength of 24.37 during 2016–2020. Following closely was “Anticancer immunotherapy by CTLA-4 blockade relies on the gut microbiota” by Marie Vétizou et al., published in Science, with a strength of 21.66 and a similar burst period. The burst strength across the top 20 references varied from 4.75 to 24.37, with durations extending from 2 to 5 years. We also encapsulated the core content of these significant references in Supplementary Table 2.
+
+The analysis of global research contributions, including the geographic and institutional distribution, provides a foundational understanding of the landscape in which microbiota and lung cancer research is being conducted. This study highlights the key players and regions contributing to the field, which is essential for contextualizing the emerging trends in research that directly explore the associations between the microbiota and lung cancer. In the following sections, we delve into these research trends, focusing on how the microbiota is increasingly recognized as a critical factor in lung cancer development and progression (Figure 9).
+
+Figure 9
+www.frontiersin.org
+Figure 9. Top 20 references with strong citation bursts. A red bar indicates high citations in that year.
+
+Analysis of hotspots and frontiers
+Our analysis extended to identifying research hotspots and emerging frontiers through keyword co-occurrence analysis. This methodology enabled us to pinpoint the predominant themes and cutting-edge topics within specific domains, as illustrated in Figure 10A. Among the top 20 recurrent keywords—some appearing over 60 times—were pivotal terms like gut microbiota, cancer, immunotherapy, and immune checkpoint inhibitor (ICI) (Table 4). These terms underscore the principal research direction focusing on the microbiota’s role in lung cancer. The network was categorized into three clusters (Figure 10A), representing distinct research domains: green clusters encompassed terms related to lung cancer, microbiota, the gut-lung axis, and cancer therapy; red clusters focused on the gut microbiota, the immune system, and the tumor microenvironment; and blue clusters were dedicated to immunotherapy, biomarkers, and related themes.
+
+Figure 10
+www.frontiersin.org
+Figure 10. Keyword cluster analysis (A) and trend topic analysis (B).
+
+Table 4
+www.frontiersin.org
+Table 4. Top 20 keywords on research of microbiota in lung cancer.
+
+As illustrated in Figure 10B, the keyword analysis reveals that from 2012 to 2016, discussions predominantly centered around nuclear factor-kappa B. Following this, from 2016 to 2018, the focus shifted toward neutrophil information. During this period, scholars expanded their research horizons, delving into various directions such as inflammation, bacteria, lung and gut health, 16S rRNA, angiogenesis, and adenocarcinoma. By 2019, the academic community further broadened its exploration, examining the intricate relationships between the microbiota, lung cancer, and bacteria. In subsequent years, attention turned toward the diagnosis of microbiota in lung carcinoma and the compilation of its therapeutic potential in treating lung carcinoma. Additionally, keywords related to gut microbiota, immunotherapy, and short-chain fatty acids (SCFAs) garnered significant interest during 2022–2023, indicating their emergence as potential research hotspots in the context of microbiota and lung cancer.
+
+Discussion
+General information
+This study provides a focused bibliometric analysis specifically on the microbiota in lung cancer, covering publications from 2008 to 2023. Initially, research in this area was sparse, spanning from 2008 to 2015. However, a significant increase in publication volume occurred after 2016, with an average annual growth rate of 45.39% and an average of 76.57 publications per year until 2022. The surge in publications in 2022 highlights the growing recognition of microbiota as a promising research area in lung cancer. The primary contributors to this field include China, the United States, Ireland, and Italy, with the most prolific institutions being Zhejiang University, the National College of Ireland, and Shanghai Jiao Tong University. Notably, collaboration among Zhejiang University, the University of Chinese Academy of Science, and Zhejiang Chinese Medical University has been particularly robust.
+
+The prominence of journals such as Science and Cancers in publishing research on the microbiota in lung cancer underscores the growing acknowledgment of the microbiome’s role in oncology. The high citation rate of these journals highlights their impact on shaping current research directions and methodologies. Zhang Yan’s contributions, particularly in elucidating the characteristics of lung microbiota in advanced-stage lung cancer, provide valuable insights into potential biomarkers for prognosis and therapeutic targets. The correlation between the microbiota in tumor tissues and BALF suggests a systemic influence of the microbiome on lung cancer pathophysiology. This finding could lead to novel diagnostic tools that use microbial signatures to enhance the accuracy of lung cancer staging and potentially guide personalized treatment strategies (Zhang et al., 2022a,b). Furthermore, the work of Marie-Vétizou and colleagues has significantly advanced our understanding of the microbiome’s influence on cancer therapy. Their studies on the effects of CTLA-4 blockade on Bacteroidales and the subsequent immunostimulatory responses (Marie-Vétizou et al., 2015) indicate that manipulating the microbiome could enhance the efficacy of immune checkpoint inhibitors. The potential for microbiome modulation to affect cancer prognosis by altering immunosuppression and the tumor microenvironment suggests new avenues for integrative therapies that combine microbiome regulation with conventional and immunotherapeutic approaches (Pitt et al., 2016; Zitvogel et al., 2017; Fidelle et al., 2023). This research also implicates the microbiome in the modulation of cancer-related pathways beyond the immune response, including tumor cell signaling and metabolic processes. Marie-Vétizou’s exploration of microbial community checkpoints and their role in directing T cells to various cancer types presents a promising frontier for targeted immunotherapy, offering a potentially transformative impact on treatment paradigms for lung and other cancers. In conclusion, the intersections of microbiota research with lung cancer pathogenesis and treatment point to a rich field of study that may yield critical advances in oncological therapies. Future research should aim to clarify the mechanisms through which the microbiome influences tumor behavior and resistance to therapies, paving the way for microbiome-based diagnostics and therapeutics.
+
+Research basis
+Co-cited references provide a foundational basis for understanding a research field (Chen, 2006). The synthesis of findings from these co-cited references underscores a significant trend in microbiota research related to lung cancer: the exploration of microbial influence on immune modulation and cancer progression. Fidelle et al.’s identification of microbial checkpoints provides a molecular basis for how the intestinal microbiota might influence systemic immune responses, particularly in the context of cancer immunosuppression. This work is instrumental in paving the way for novel therapeutic strategies that harness the microbiome to boost the effectiveness of existing cancer treatments (Fidelle et al., 2023). The work by Sivan et al. adds another layer of complexity, revealing how certain commensal bacteria can naturally enhance the body’s ability to fight cancer through immune pathways. Their findings suggest that augmenting these natural allies within our microbiota could be a viable method to increase the efficacy of checkpoint inhibitors like anti-programmed cell death protein 1 ligand 1 (PD-L1), a popular cancer therapy (Sivan et al., 2015). Lee et al.’s research provides practical insights into the diagnostic potential of microbiota analysis. By identifying specific bacterial species as biomarkers, this approach could lead to more precise and early detection of lung cancer, distinguishing malignant growths from benign lesions based solely on microbial composition (Lee et al., 2016). Lastly, Jin et al.’s study highlights the direct inflammatory roles played by local microbiota in promoting lung carcinoma. This connection between local microbiota and inflammation introduces potential targets for interventions that could mitigate inflammation and, consequently, reduce cancer progression (Jin et al., 2019). Collectively, these co-cited references highlight four central themes: commensal microbiota, intestinal microbiota, bacterial community components, and antitumor/cancer immunotherapy strategies. Furthermore, these findings collectively point to a transformative potential in cancer therapy and diagnosis, influenced by the intricate interactions between microbiota and the host immune system. Future research should focus on the mechanistic pathways through which microbiota influence cancer and the potential for clinical applications that modify the microbiome to fight cancer more effectively. This could include the development of microbial-based therapies, enhanced diagnostic tools, and integrated treatment protocols that consider the microbiome as a critical element in patient management and therapy design.
+
+Hotspots and frontiers
+Researchers often use references with citation bursts and keyword co-occurrence analysis to quickly identify hotspots and frontiers in specific fields. Currently, major topics in lung cancer research related to microbiota focus on the lung and gut microbiota and anticancer immunotherapy.
+
+Lung microbiota
+Recent studies have investigated the relationship between lung cancer stage and the composition of the microbiota in lung tissues. These studies suggest that the microbiota may vary depending on the stage of lung cancer. For instance, certain microbial taxa, such as Proteobacteria, have been found in higher relative abundance in more advanced stages of lung cancer. Additionally, differences in microbial diversity have been observed, with lower alpha diversity often associated with more advanced stages. These findings indicate that there may be a significant relationship between lung cancer progression and changes in the lung microbiota (Karvela et al., 2023; Whiteside et al., 2021). Furthermore, studies have identified that the composition of the lung microbiota can indeed vary between different types of lung cancer, such as non-small cell lung cancer (NSCLC) and small cell lung cancer (SCLC). For example, Streptococcus and Veillonella have been associated with NSCLC, particularly in advanced stages. On the other hand, the lower airway microbiota composition has been observed to differ between NSCLC and SCLC, suggesting that each type of lung cancer might have distinct microbiota profiles that could influence disease progression and response to treatment (Najafi et al., 2021; Chaturvedi et al., 2010). Contrary to earlier beliefs that lung tissues are sterile, recent studies using Next-Generation Sequencing (NGS) have suggested that they are not (Mao et al., 2018). Research has increasingly shown that microorganisms may heighten susceptibility to lung cancer (Erb-Downward et al., 2011). Furthermore, antibiotic use has been linked to an increased risk of lung carcinoma, hinting at the oncogenic potential of ecological imbalances (Kim et al., 2023). Microorganisms may also promote lung carcinoma development by inducing inflammation, such as through the activation of Toll-like receptors in immune and epithelial cells (Chen et al., 2022; Orlacchio and Mazzone, 2021). The microbial community in the lung mucosa of the lower respiratory tract shows systematic diversity from that of the upper airways, primarily consisting of genera like Megasphaera, Streptococcus, Pseudomonas, Fusobacterium, and Sphingomonas (Hilty et al., 2010; Beck et al., 2012).
+
+Previous studies have highlighted the association between lung microbiota and lung carcinoma, yet the specific mechanisms remain poorly understood. In 2016, Lee et al. observed distinct bacterial communities in lung carcinoma compared to benign mass-like lesions (Lee et al., 2016). In 2018, Liu et al. reported a higher abundance of Streptococcus in bronchoscopic specimens from lung cancer patients than in controls (Liu et al., 2018). These findings suggest that certain microbiota could help diagnose lung carcinoma types. For instance, Yan et al. discovered significant associations between the genera Capnocytophaga, Selenomonas, Veillonella, and Neisseria in saliva samples from lung carcinoma patients and both adenocarcinoma and small cell carcinoma (SCC), indicating their potential as biomarkers (Yan et al., 2015). Interestingly, variations in microbiome composition have been noted among different lung cancer types; for example, squamous cell carcinoma patients with TP53 mutations showed a higher abundance of Acidovorax, and the genera Klebsiella, Comamonas, Acidovorax, Polaromonas, and Rhodoferax were more common in small cell carcinoma than in adenocarcinoma (Yu et al., 2016; Dickson et al., 2014; Greathouse et al., 2018). Although the research is still emerging, some studies suggest that gender may influence the composition of lung microbiota. For example, variations in microbiota have been reported between male and female lung cancer patients, potentially impacting how the disease progresses and responds to treatment. However, the data on gender-specific differences are not yet robust and more research is needed to draw definitive conclusions (Peters et al., 2022).
+
+Bacteria can trigger chronic inflammation by activating pro-inflammatory factors, which in turn promote the proliferation of airway epithelial cells and potentially induce tumor formation (Mao et al., 2018; Laroumagne et al., 2013). Additionally, local microbiota may drive carcinogenesis by directly affecting epithelial cells. In 2019, Jin et al. suggested that local microbiota induce inflammation related to lung carcinoma through the activation of lung-resident γδ T cells. Elimination of symbiotic bacteria reduced lung adenocarcinoma development, as these bacteria promoted the proliferation and activation of Vγ6Vδ1 + γδ T cells, fostering inflammation through the production of effector molecules like IL-17, which in turn stimulates tumor cell proliferation (Jin et al., 2019).
+
+Further research is needed to explore the pulmonary microbiota as a biomarker for the diagnosis and treatment of lung carcinoma. Although links between the pulmonary microbiota and lung cancer have been established, the detailed mechanisms of interaction remain unclear. Unraveling these mechanisms will provide deeper insights into the pathogenesis of lung carcinoma. Moreover, research should aim to accurately control system biases from sampling types and environmental pollutants. Since different sample types, such as lung tissues, sputum, BAL fluid, and bronchoscopy specimens, might contain varying microbial types that influence patient outcomes, establishing unified guidelines for sample collection methods is crucial.
+
+Gut microbiota
+The gut microbiota comprises diverse bacteria in the human gastrointestinal tract and plays a crucial role in physiology and host health (Dickson et al., 2014; Schuijt et al., 2016). Interestingly, research has established a link between gut microbiota and lung cancer (Routy et al., 2018). Zhuang et al. observed decreased gut microbial function in lung carcinoma cases and identified Enterococcus and Bifidobacterium as potential biomarkers for the disease (Zhuang et al., 2019). Similarly, Liu et al. found reduced abundance and biodiversity in the gut microbial community among 30 lung carcinoma patients, as well as a decline in probiotic genera (Liu et al., 2019). These differences suggest that gut microbiota may affect the treatment outcomes and prognosis of lung carcinoma.
+
+The gut microbiome composition of lung cancer patients who responded to immune checkpoint inhibitors differed markedly from those who did not respond. Patients with a higher abundance of Akkermansia muciniphila showed better responses to anti-PD-L1 therapy; conversely, an abnormal gut microbiota composition was associated with resistance to ICI therapy (Routy et al., 2018). A 2019 study by Jin et al. revealed that in Chinese lung cancer patients responding to nivolumab, gut microbiota was stable and exhibited greater diversity, which correlated with prolonged progression-free survival (PFS) (Jin et al., 2019). A retrospective study involving 118 early-stage lung cancer patients who received immunotherapy indicated that treatment with Clostridium butyricum therapy (CBT) significantly extended PFS and overall survival, irrespective of immunotherapy use (Tomita et al., 2020). Additionally, high yogurt consumption was linked to a reduced risk of lung cancer, suggesting protective effects of prebiotics and probiotics against lung carcinoma (Yang et al., 2020).
+
+Moreover, intestinal and pulmonary microorganisms show similar colonization patterns early in life and possess a robust mucosal defense system. The intestinal and lung mucosa share several characteristics, including the ability of goblet cells in both tissues to secrete IgA. Research has indicated mutual influence on immunity between the lungs and intestines (Gill et al., 2010). Studies have shown that short-chain fatty acids (SCFAs), the primary metabolites of gut microbiota from dietary fiber, play roles in regulating both gut microbiota immune functions and lung immunity in allergic models (Cait et al., 2018). Furthermore, it is suggested that lung flora can affect intestinal flora through the bloodstream, linking intestinal and pulmonary microbiota via a complex bidirectional axis involving the lymphatic and blood circulation systems (Renz et al., 2011; Marsland et al., 2015). Disruption of this gut-lung axis can lead to adverse outcomes, including cancer development, pathogen colonization, tissue damage, and an elevated infection risk (Hooper et al., 2012; Mazmanian et al., 2005). This crosstalk offers potential new therapies for lung carcinoma, but further research is needed to explore the mechanisms underlying the gut-lung axis’s influence on lung cancer.
+
+Advantages and shortcomings
+This study provides a focused bibliometric analysis specifically on the microbiota in lung cancer. The primary strength of this research lies in its novelty and the comprehensive methodology employed to map the existing landscape of microbiota research within the context of lung cancer. By concentrating exclusively on this intersection, we have uncovered unique insights and patterns that may not have been apparent in broader reviews of microbiota or cancer independently. This targeted analysis contributes significantly to the understanding of the role of microbiota in oncology, a field increasingly recognized as crucial by the scientific community. The societal impact of this research extends beyond the academic sphere. By identifying key associations between the microbiota and lung cancer, our findings have the potential to inform the development of new clinical applications, including diagnostics and treatments, which could significantly improve patient outcomes. Additionally, the study informs public health policies, enhances scientific education, and raises public awareness of the microbiota’s role in cancer. By highlighting international research collaborations, this work also promotes global scientific cooperation, accelerating progress in understanding and managing lung cancer.
+
+However, our study has notable limitations that must be acknowledged. First, our research scope was restricted to articles indexed in the WoSCC. While WoSCC is a robust and widely used database for scientific publications, this limitation may have led to the exclusion of potentially impactful studies published in other databases or journals not indexed by WoSCC, such as those more regionally focused or newer journals. Secondly, by restricting our analysis to papers written in English, we have inadvertently overlooked significant research contributions documented in other languages. This exclusion might skew the understanding of the field’s true global landscape, as non-English publications could hold critical regional insights or innovative approaches not yet widely discussed in English-language literature. Finally, the methodology employed in this study does not allow for the investigation of species variation among microbes across different countries. Such biological variations require more detailed metagenomic or microbial community analyses, which fall outside the scope of bibliometric analysis. Future studies combining bibliometric trends with biological data could provide a more nuanced understanding of how microbial species related to lung cancer differ geographically.
+
+Future directions
+The limitations outlined suggest a need for a more inclusive approach in future bibliometric analyses. Expanding the search to include multiple databases and considering articles published in multiple languages would enhance the comprehensiveness and accuracy of the analysis. Addressing these gaps could potentially reveal new dimensions and connections in the microbiota-lung cancer nexus that were not captured in this initial study. Moreover, such an expanded approach would better reflect the global effort in this research area, providing a more holistic view of the international scientific community’s contributions.
+
+While our study provides a comprehensive overview of microbiota research in lung cancer, it is important to note that direct studies comparing gut microbiota profiles with survival rates in lung cancer patients are still limited. This gap highlights the need for future research to explore how specific microbial compositions may correlate with long-term treatment outcomes, potentially leading to microbiota-targeted therapies to improve patient survival.
+
+Collectively, while this bibliometric analysis has laid a solid foundation for understanding the role of microbiota in lung cancer, the study’s limitations underscore the importance of broader and more inclusive research strategies moving forward. By adopting such strategies, the scientific community can ensure a more complete and nuanced understanding of how microbiota influences lung cancer, potentially leading to breakthroughs in treatment and diagnosis.
+
+Conclusion
+The microbiota holds significant value and potential for lung cancer research, with publications increasing rapidly each year. Major studies in this field are predominantly conducted in China, the United States, Ireland, and Italy, with journals such as Cancers and Science playing pivotal roles. Current research focuses primarily on understanding the mechanisms by which lung and/or gut microbiota influence lung cancer, and on developing immune checkpoint inhibitors as therapeutic strategies. Additionally, manipulating the microbiota offers promising new approaches to treating lung carcinoma. The interaction between the gut-lung microbiota axis provides novel therapeutic targets for managing lung carcinoma. However, more research is needed to fully understand the underlying mechanisms connecting the gut-lung axis to lung cancer.
+
+Data availability statement
+The original contributions presented in the study are included in the article/Supplementary material, further inquiries can be directed to the corresponding author.
+
+Author contributions
+MZ: Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Writing – original draft, Writing – review & editing. JT: Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Supervision, Writing – original draft, Writing – review & editing. WH: Writing – original draft, Writing – review & editing. LY: Writing – original draft, Writing – review & editing. WL: Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Supervision, Writing – original draft, Writing – review & editing.
+
+Funding
+The author(s) declare that financial support was received for the research, authorship, and/or publication of this article. This work was supported by the National Natural Science Foundation of China (Nos. 92159302), the Science and Technology Project of Sichuan (2022ZDZX0018), and Molecular Regulatory Networks and Precision Treatment of Lung Cancer (ZYGD22009).
+
+Conflict of interest
+The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+
+Publisher’s note
+All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.
+
+Supplementary material
+The Supplementary material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fmicb.2024.1416385/full#supplementary-material
+
+References
+Alam, N., Jia, L. Y., Cheng, A., Ren, H. H., Fu, Y., Ding, X. H., et al. (2024). Global research trends on gut microbiota and metabolic dysfunction-associated steatohepatitis: insights from bibliometric and scientometric analysis. Front. Pharmacol. 15:1390483. doi: 10.3389/fphar.2024.1390483
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Aria, M., and Cuccurullo, C. (2017). Bibliometrix: an R-tool for comprehensive science mapping analysis. J. Informetr. 11, 959–975. doi: 10.1016/j.joi.2017.08.007
+
+Crossref Full Text | Google Scholar
+
+Bassis, C. M., Erb-Downward, J. R., Dickson, R. P., Freeman, C. M., Schmidt, T. M., Young, V. B., et al. (2015). Analysis of the upper respiratory tract microbiotas as the source of the lung and gastric microbiotas in healthy individuals. MBio 6:e00037. doi: 10.1128/mBio.00037-15
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Beck, J. M., Young, V. B., and Huffnagle, G. B. (2012). The microbiome of the lung. Transl. Res. 160, 258–266. doi: 10.1016/j.trsl.2012.02.005
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Cait, A., Hughes, M. R., Antignano, F., Cait, J., Dimitriu, P. A., Maas, K. R., et al. (2018). Microbiome-driven allergic lung inflammation is ameliorated by short-chain fatty acids. Mucosal Immunol. 11, 785–795. doi: 10.1038/mi.2017.75
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Chaturvedi, A. K., Gaydos, C. A., Agreda, P., Holden, J. P., Chatterjee, N., Goedert, J. J., et al. (2010). Chlamydia pneumoniae infection and risk for lung cancer. Cancer Epidemiol. Biomarkers Prev. 19, 1498–1505. doi: 10.1158/1055-9965.EPI-09-1261
+
+Crossref Full Text | Google Scholar
+
+Chen, C. (2006). CiteSpace II: detecting and visualizing emerging trends and transient patterns in scientific literature. J. Am. Soc. Inf. Sci. Technol. 57, 359–377. doi: 10.1002/asi.20317
+
+Crossref Full Text | Google Scholar
+
+Chen, M., Deng, H., Zhao, Y., Miao, X. Q., Gu, H. Y., Bi, Y., et al. (2022). Toll-like receptor 2 modulates pulmonary inflammation and TNF-α release mediated by Mycoplasma pneumoniae. Front. Cell. Infect. Microbiol. 12:824027. doi: 10.3389/fcimb.2022.824027
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Dickson, R. P., Erb-Downward, J. R., Freeman, C. M., McCloskey, L., Beck, J. M., Huffnagle, G. B., et al. (2015). Spatial variation in the healthy human lung microbiome and the adapted island model of lung biogeography. Ann. Am. Thorac. Soc. 12, 821–830. doi: 10.1513/AnnalsATS.201501-029OC
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Dickson, R. P., Erb-Downward, J. R., and Huffnagle, G. B. (2014). Towards an ecology of the lung: new conceptual models of pulmonary microbiology and pneumonia pathogenesis. Lancet Respir. Med. 2, 238–246. doi: 10.1016/S2213-2600(14)70028-1
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Erb-Downward, J. R., Thompson, D. L., Han, M. K., Freeman, C. M., McCloskey, L., Schmidt, L. A., et al. (2011). Analysis of the lung microbiome in the “healthy” smoker and in COPD. PLoS One 6:e16384. doi: 10.1371/journal.pone.0016384
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Fidelle, M., Rauber, C., Costa-Silva, C. A., Tian, A. L., Lahmar, I., Mallard de La Varende, A. L., et al. (2023). A microbiota-modulated checkpoint directs immunosuppressive intestinal T cells into cancers. Science 380:eabo2296. doi: 10.1126/science.abo2296
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Garcia-Nuñez, M., Millares, L., Pomares, X., Ferrari, R., Pérez-Brocal, V., Gallego, M., et al. (2014). Severity-related changes of bronchial microbiome in chronic obstructive pulmonary disease. J. Clin. Microbiol. 52, 4217–4223. doi: 10.1128/JCM.01967-14
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Garrett, W. S. (2015). Cancer and the microbiota. Science 348, 80–86. doi: 10.1126/science.aaa4972
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Gill, N., Wlodarska, M., and Finlay, B. B. (2010). The future of mucosal immunology: studying an integrated system-wide organ. Nat. Immunol. 11, 558–560. doi: 10.1038/ni0710-558
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Goto, T. (2022). Microbiota and lung cancer. Semin. Cancer Biol. 86, 1–10. doi: 10.1016/j.semcancer.2022.07.006
+
+Crossref Full Text | Google Scholar
+
+Greathouse, K. L., White, J. R., Vargas, A. J., Bliskovsky, V. V., Beck, J. A., and Muhlinen, N. V. (2018). Interaction between the microbiome and TP53 in human lung cancer. Genome Biol. 19:123. doi: 10.1186/s13059-018-1501-6
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Hilty, M., Burke, C., Pedro, H., Cardenas, P., Bush, A., Bossley, C., et al. (2010). Disordered microbial communities in asthmatic airways. PLoS One 5:e8578. doi: 10.1371/journal.pone.0008578
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Hooper, L. V., Littman, D. R., and Macpherson, A. J. (2012). Interactions between the microbiota and the immune system. Science 336, 1268–1273. doi: 10.1126/science.1223490
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Jin, Y. P., Dong, H., Xia, L. L., Yang, Y., Zhu, Y. Q., Shen, Y., et al. (2019). The diversity of gut microbiome is associated with favorable responses to anti-programmed death 1 immunotherapy in Chinese patients with NSCLC. J. Thorac. Oncol. 14, 1378–1389. doi: 10.1016/j.jtho.2019.04.007
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Jin, C. C., Lagoudas, G. K., Zhao, C., Bullman, S., Bhutkar, A., Hu, B., et al. (2019). Commensal microbiota promote lung cancer development via γδ T cells. Cell 176, 998–1013.e16. doi: 10.1016/j.cell.2018.12.040
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Karvela, A., Veloudiou, O. Z., Karachaliou, A., Kloukina, T., Gomatou, G., Kotteas, E., et al. (2023). Lung microbiome: an emerging player in lung cancer pathogenesis and progression. Clin. Transl. Oncol. 25, 2365–2372. doi: 10.1007/s12094-023-03139-z
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Kim, H. J., Kim, Y. S., Kim, K. H., Choi, J. P., Kim, Y. K., Yun, S., et al. (2017). The microbiome of the lung and its extracellular vesicles in nonsmokers, healthy smokers and COPD patients. Exp. Mol. Med. 49:e316. doi: 10.1038/emm.2017.7
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Kim, M., Park, S. J., Choi, S., Jeong, S., Chang, J., Park, T. J., et al. (2023). Association of antibiotic use with risk of lung cancer: a nationwide cohort study. J. Infect. Public Health 16, 1123–1130. doi: 10.1016/j.jiph.2023.05.006
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Laroumagne, S., Lepage, B., Hermant, C., Plat, G., Phelippeau, M., Bigay-Game, L., et al. (2013). Bronchial colonisation in patients with lung cancer: a prospective study. Eur. Respir. J. 42, 220–229. doi: 10.1183/09031936.00062212
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Lee, S. H., Sung, J. Y., Yong, D., Chun, J., Kim, S. Y., Song, J. H., et al. (2016). Characterization of microbiome in bronchoalveolar lavage fluid of patients with lung cancer comparing with benign mass like lesions. Lung Cancer 102, 89–95. doi: 10.1016/j.lungcan.2016.10.016
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Liu, F., Li, J. J., Guan, Y. B., Lou, Y. F., Chen, H. Y., Xu, M. Y., et al. (2019). Dysbiosis of the gut microbiome is associated with tumor biomarkers in lung cancer. Int. J. Biol. Sci. 15, 2381–2392. doi: 10.7150/ijbs.35980
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Liu, H. X., Tao, L. L., Zhang, J., Zhu, Y. G., Zheng, Y., Liu, D., et al. (2018). Difference of lower airway microbiome in bilateral protected specimen brush between lung cancer patients with unilateral lobar masses and control subjects. Int. J. Cancer 142, 769–778. doi: 10.1002/ijc.31098
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Mao, Q. X., Jiang, F., Yin, R., Wang, J., Xia, W. J., Dong, G. C., et al. (2018). Interplay between the lung microbiome and lung cancer. Cancer Lett. 415, 40–48. doi: 10.1016/j.canlet.2017.11.036
+
+Crossref Full Text | Google Scholar
+
+Marie-Vétizou, M., Pitt, J. M., Daillère, R., Lepage, P., Waldschmitt, W., Flament, C., et al. (2015). Anticancer immunotherapy by CTLA-4 blockade relies on the gut microbiota. Science 350, 1079–1084. doi: 10.1126/science.aad1329
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Marsh, R. L., Kaestli, K. M., Chang, A. B., Binks, M. J., Pope, C. E., Hoffman, L. R., et al. (2016). The microbiota in bronchoalveolar lavage from young children with chronic lung disease includes taxa present in both the oropharynx and nasopharynx. Microbiome 4:37. doi: 10.1186/s40168-016-0182-1
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Marsland, B. J., Trompette, A., and Gollwitzer, E. S. (2015). The gut-lung axis in respiratory disease. Ann. Am. Thorac. Soc. 12, S150–S156. doi: 10.1513/AnnalsATS.201503-133AW
+
+Crossref Full Text | Google Scholar
+
+Mazmanian, S. K., Liu, C. H., Tzianabos, A. O., and Kasper, D. L. (2005). An immunomodulatory molecule of symbiotic bacteria directs maturation of the host immune system. Cell 122, 107–118. doi: 10.1016/j.cell.2005.05.007
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Morris, A., Beck, J. M., Schloss, P. D., Campbell, T. B., Crothers, K., Curtis, J. L., et al. (2013). Comparison of the respiratory microbiome in healthy nonsmokers and smokers. Am. J. Respir. Crit. Care Med. 187, 1067–1075. doi: 10.1164/rccm.201210-1913OC
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Najafi, S., Abedini, F., Jamalkandi, S. A., Shariati, P., Ahmadi, A., and Fesharaki, M. G. (2021). The composition of lung microbiome in lung cancer: a systematic review and meta-analysis. BMC Microbiol. 21:315. doi: 10.1186/s12866-021-02375-z
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Orlacchio, A., and Mazzone, P. (2021). The role of toll-like receptors (TLRs) mediated inflammation in pancreatic cancer pathophysiology. Int. J. Mol. Sci. 22:12743. doi: 10.3390/ijms222312743
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Pan, X., Yan, E., Cui, M., and Hua, W. (2018). Examining the usage, citation, and diffusion patterns of bibliometric mapping software: a comparative study of three tools. J. Informetr. 12, 481–493. doi: 10.1016/j.joi.2018.03.005
+
+Crossref Full Text | Google Scholar
+
+Peters, B. A., Pass, H. I., Burk, R. D., Xue, X. N., Goparaju, C., Sollecito, C. C., et al. (2022). The lung microbiome, peripheral gene expression, and recurrence-free survival after resection of stage II non-small cell lung cancer. Genome Med. 14:121. doi: 10.1186/s13073-022-01126-7
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Pitt, J. M., Vétizou, M., Daillère, R., Roberti, M. P., Yamazaki, T., Routy, B., et al. (2016). Resistance mechanisms to immune-checkpoint blockade in cancer: tumor-intrinsic and-extrinsic factors. Immunity 44, 1255–1269. doi: 10.1016/j.immuni.2016.06.001
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Renz, H., Brandtzaeg, P., and Hornef, M. (2011). The impact of perinatal immune development on mucosal homeostasis and chronic inflammation. Nat. Rev. Immunol. 12, 9–23. doi: 10.1038/nri3112
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Routy, B., Chatelier, E. L., Derosa, L. P. M., Duong, C., Alou, M. T., and Daillère, R. (2018). Gut microbiome influences efficacy of PD-1-based immunotherapy against epithelial tumors. Science 359, 91–97. doi: 10.1126/science.aan3706
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Schuijt, T. J., Lankelma, J. M., Scicluna, B. P., De Sousa E Melo, F., JJTH, R., De Boer, J. D., et al. (2016). The gut microbiota plays a protective role in the host defence against pneumococcal pneumonia. Gut 65, 575–583. doi: 10.1136/gutjnl-2015-309728
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Segal, L. N., Alekseyenko, A. V., Clemente, J. C., Kulkarni, R., Wu, B., Gao, Z., et al. (2013). Enrichment of lung microbiome with supraglottic taxa is associated with increased pulmonary inflammation. Microbiome 1:19. doi: 10.1186/2049-2618-1-19
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Shieh, Y., Eklund, M., Sawaya, G. F., Black, W. C., Kramer, B. S., and Esserman, L. J. (2016). Population-based screening for cancer: hope and hype. Nat. Rev. Clin. Oncol. 13, 550–565. doi: 10.1038/nrclinonc.2016.50
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Sivan, A., Corrales, L., Hubert, N., Williams, J. B., Aquino-Michaels, K., Earley, Z. M., et al. (2015). Commensal bifidobacterium promotes antitumor immunity and facilitates anti-PD-L1 efficacy. Science 350, 1084–1089. doi: 10.1126/science.aac4255
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Synnestvedt, M. B., Chen, C. M., and Holmes, J. H. (2005). CiteSpace II: visualization and knowledge discovery in bibliographic databases. AMIA Annu. Symp. Proc. 2005, 724–728.
+
+Google Scholar
+
+Sze, M. A., Dimitriu, P. A., Hayashi, S., Elliott, W. M., McDonough, J. E., Gosselink, J. V., et al. (2012). The lung tissue microbiome in chronic obstructive pulmonary disease. Am. J. Respir. Crit. Care Med. 185, 1073–1080. doi: 10.1164/rccm.201111-2075OC
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Tomita, Y., Ikeda, T., Sakata, S., Saruwatari, K., Sato, R., Iyama, S., et al. (2020). Association of probiotic Clostridium butyricum therapy with survival and response to immune checkpoint blockade in patients with lung cancer. Cancer Immunol. Res. 8, 1236–1242. doi: 10.1158/2326-6066.CIR-20-0051
+
+Crossref Full Text | Google Scholar
+
+Whiteside, S. A., McGinniss, J. E., and Collman, R. G. (2021). The lung microbiome: progress and promise. J. Clin. Invest. 131:e150473. doi: 10.1172/JCI150473
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+World Health Organization. (2023). Lung cancer. Global cancer observatory: cancer today. Available at: https://gco.iarc.fr/today.
+
+Google Scholar
+
+Wu, F. P., Gao, J. F., Kang, J., Wang, X. X., Niu, Q., Liu, J. X., et al. (2022). Knowledge mapping of exosomes in autoimmune diseases: a bibliometric analysis (2002-2021). Front. Immunol. 13:939433. doi: 10.3389/fimmu.2022.939433
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Yan, X. M., Yang, M. X., Liu, J., Gao, R. C., Hu, J. H., Li, J., et al. (2015). Discovery and validation of potential bacterial biomarkers for lung cancer. Am. J. Cancer Res. 5, 3111–3122
+
+PubMed Abstract | Google Scholar
+
+Yang, J. J., Yu, D. X., Xiang, Y. B., Blot, W., White, E., Robien, K., et al. (2020). Association of dietary fiber and yogurt consumption with lung cancer risk: a pooled analysis. JAMA Oncol. 6:e194107. doi: 10.1001/jamaoncol.2019.4107
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Yu, G. Q., Gail, N. H., Consonni, D., Carugno, M., Humphrys, M., Pesatori, A. C., et al. (2016). Characterizing human lung tissue microbiota and its relationship to epidemiological and clinical features. Genome Biol. 17:163. doi: 10.1186/s13059-016-1021-1
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Zhang, M., Hang, Y. Z., Sun, Y., Wang, S. C., Liang, H., and Han, Y. G. (2022a). Intratumoral microbiota impacts the first-line treatment efficacy and survival in non-small cell lung cancer patients free of lung infection. J. Healthc. Eng. 2022, 5466853–5466857. doi: 10.1155/2022/5466853
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Zhang, M., Zhang, Y., Han, Y. G., Zhao, X., and Sun, Y. (2022b). Lung microbiota features of stage III and IV non-small cell lung cancer patients without lung infection. Transl. Cancer Res. 11, 426–434. doi: 10.21037/tcr-22-92
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Zhuang, H., Cheng, L., Wang, Y., Zhang, Y. K., Zhao, M. F., Liang, G. D., et al. (2019). Dysbiosis of the gut microbiome in lung cancer. Front. Cell. Infect. Microbiol. 9:112. doi: 10.3389/fcimb.2019.00112
+
+Crossref Full Text | Google Scholar
+
+Zitvogel, L., Daillère, R., Roberti, M. P., Routy, B., and Kroemer, G. (2017). Anticancer effects of the microbiome and its products. Nat. Rev. Microbiol. 15, 465–478. doi: 10.1038/nrmicro.2017.44
+
+Crossref Full Text | Google Scholar
+
+Zitvogel, L., Ma, Y. T., Raoult, D., Kroemer, G., and Gajewski, T. F. (2018). The microbiome in cancer immunotherapy: diagnostic tools and therapeutic strategies. Science 359, 1366–1370. doi: 10.1126/science.aar6918
+
+PubMed Abstract | Crossref Full Text | Google Scholar
+
+Keywords: lung cancer, microbiota, bibliometric analysis, VOSviewers, Citespace
+
+Citation: Zhao M, Tian J, Hou W, Yin L and Li W (2024) Global research trends on the associations between the microbiota and lung cancer: a visualization bibliometric analysis (2008–2023). Front. Microbiol. 15:1416385. doi: 10.3389/fmicb.2024.1416385
+
+Received: 12 April 2024; Accepted: 19 August 2024;
+Published: 30 August 2024.
+
+Edited by:
+
+Maria Gazouli, National and Kapodistrian University of Athens, Greece
+Reviewed by:
+
+Nikolas Dovrolis, Democritus University of Thrace, Greece
+Vidyullatha Peddireddy, Central University of Haryana, India
+Copyright © 2024 Zhao, Tian, Hou, Yin and Li. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.
+
+*Correspondence: Weimin Li, weimin003@163.com
+
+†These authors have contributed equally to this work
+
+Disclaimer: All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article or claim that may be made by its manufacturer is not guaranteed or endorsed by the publisher.

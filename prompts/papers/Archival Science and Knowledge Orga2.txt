@@ -1,0 +1,736 @@
+Archival Science and Knowledge Organization:
+Mapping Methodological Relationships
+Thiago Henrique Bragato Barros* and Renato Tarciso Barbosa de Sousa**
+*Federal University of Rio Grande do Sul, Faculty of Information and Comunication,
+Rua Ramiro Barcelos, 2705—Campus Saúde—Porto Alegre, RS-CEP 90035-007, Brazil,
+<bragato.barros@ufrgs.br>
+** University of Brasilia, Faculty of Information Science, UnB-Brasília, DF, 70297-400, Brazil,
+<renasou@unb.br>
+Thiago Henrique Bragato Barros is Assistant Professor at the Information Science Department of the Federal
+University of Rio Grande do Sul (UFRGS). He was post doctoral researcher in information science at the Uni-
+versity of Brasilia (2018-2019). He is a member of research groups at UNESP, UNB, UFPA and UFRGS, presi-
+dent of the International Society Knowledge Organization Brazilian Chapter (ISKO) (2017-2019), and a member
+of ISKO-International Scientific Advisory Board. He has experience in archival science and information science
+and is conducting research on linguistic approaches in information science and knowledge representation and
+organization.
+Renato Tarciso Barbosa de Sousa holds a bachelor’s degree in history from the University of Brasília (1990), a
+master's degree in library science and documentation from the University of Brasília (1995) and a PhD in social
+history from the University of São Paulo (2005). He is currently Associate Professor, Archival Studies Program,
+Director of the Faculty of Information Science and Vice-leader of the Research Group on Representation and
+Organization of Information and Knowledge at the University of Brasilia. He works mainly in archivology,
+organization and retrieval of files, document management, professional training and public archiving policies.
+Bragato Barros, Thiago Henrique, and Renato Tarciso Barbosa de Sousa. 2019. “Archival Science and Knowledge
+Organization: Relationships and Challenges in a Digital World. Knowledge Organization 46(7): 493-501. 33 refer-
+ences. DOI:10.5771/0943-7444-2019-7-493.
+Abstract: We discuss the aspects and points of contact between knowledge organization and archival science,
+based on the texts published in the scope of the International Society of Knowledge Organization, especially
+concerning classification and description, building a theoretical-conceptual parallel about their points of contact.
+The aim is to systematize the relations between knowledge organization and archival science within the scope of
+classification and description. Bibliographic research in ISKO literature and archival literature was performed.
+Through systematization, it was possible to understand how the relationship between these fields is carried out and how it can be strength-
+ened. The field of knowledge organization makes a pivotal contribution to the development of methodologies to access information. A
+series of developments in languages, structures and classifications, that is, knowledge organization systems (KOSs), is presented. On the
+other hand, archival science has been developing simultaneously, but in many moments seeking interlocutions, although superficial or even
+unintentional with the field of knowledge organization. The approximation of these fields is essential for the development of archival
+classification and description, aiming for the construction of ontologies, taxonomies and controlled vocabularies among others. These
+recent approximations must have occurred due to the changes that have happened in the last twenty years in relation to records management
+and the way people build knowledge and seek information. Also, it is possible to apply KOSs in the administrative digital environment for
+better archival representation instruments.
+Received: 29 April 2019; Revised: 21 August 2019; Accepted: 13 September 2019
+Keywords: archival science, knowledge organization, systems, classification, representation
+1.0 Introduction
+Knowledge organization (KO) is a field that contributes
+fundamentally to the development of methodologies for
+representing a given domain; KO methodologies help give a
+better understanding of knowledge itself reflecting in ways
+to access information. In this regard, a series of develop-
+ments has been presented for the construction of languages,
+structures, classifications, that is, systems of knowledge or-
+ganization. On the other hand, archival science has devel-
+oped in parallel, but, in many moments, seeking interlocu-
+tions although superficial or even unintentional with the
+field of knowledge organization, as is the case with the de-
+velopment of some requirements of archival descriptionhttps://doi.org/10.5771/0943-7444-2019-7-493, am 17.01.2025, 06:30:39
+Open Access – - https://www.nomos-elibrary.de/agb
+Knowl. Org. 46(2019)No.7
+T. H. Bragato Barros and R. T. Barbosa de Sousa. Archival Science and Knowledge Organization
+494
+standards, ontologies, taxonomies and controlled vocabular-
+ies among others. However, they contribute punctually and,
+in many cases, peripherally to the mainstream of world ar-
+chival thinking which, in many cases, is related to national
+recordkeeping practices.
+These approximations, which were often not so bright,
+originated due to the fact that in the last twenty years, there
+were changes in how administrative management pro-
+duces, transmits and accesses information and along the
+way, how people construct knowledge and seek infor-
+mation. On the other hand, as Navarro (1995) points out,
+the field of knowledge organization itself has for a long
+time relegated the issue of archival records organization to
+a secondary role as a domain apart from KO itself. From
+1980, in the field of archival science, there has been an in-
+tensification of work dedicated to the subjects that we can
+relate to KO, such as classification schemes and concep-
+tions of organization systems, but with minimal relation to
+the KO literature, which, in our opinion and within this
+paper and this particular issue, we think that there is an
+excellent potential for both fields.
+On the other hand, in the current context, the produc-
+tion of archival records has a hybrid situation in which paper
+documents are produced concomitantly with digital records
+and vice versa, in most countries (Barros 2016, 34). Regard-
+ing this, the processes of representation and organization of
+knowledge in archival contexts are studied in archival sci-
+ence in a compartmentalized way dissociated from a sys-
+temic view, to the construction as a whole. The advent of
+knowledge organization systems as part of a representation
+process of information contained in archival records is
+hardly noticeable in the theoretical-methodological context
+of archival science, and its use often occurs in an “impro-
+vised” way.
+Systems of knowledge organization are basically, as
+Dahlberg (1993, 211) postulates, “based on knowledge
+units—which are nothing else but concepts. Concepts con-
+sist of concept elements, also called concept characteristics,
+and exactly these are the factors by which concept sys-
+tems—and classification systems are such concept sys-
+tems—can be constructed.”
+As a scientific field, knowledge organization can be based
+on several axes of study, especially those according to Hjør-
+land (2016): 1) practical and intuitive approaches; 2) consen-
+sus-based approaches; 3) approaches based on facet analy-
+sis; 4) cognitive and user-based approaches; and, 5) domain
+analysis and epistemological approaches.
+Thus, its scientific field can be and is related to archival
+science and records management, precisely when one thinks
+about the possibilities of approaches concerning the sys-
+tems of organization. Because records management, classi-
+fication, access, and control systems are just that—concep-
+tual systems based on characteristics of record-producing
+institutions—and we lack objectivity in the development of
+our organizational schemes, archival science consensus-
+based approaches, facet analysis, user and domain analysis
+can have a significant impact on organizations that depend
+on records to work.
+In this sense, in this article we seek to draw a theoretical
+overview of the possible points of connection between
+KO and archival science in a theoretical and methodolog-
+ical way. As highlighted by Hjørland (2016, 100):
+Knowledge organization of archives should, how-
+ever, also be considered part of KO ... Archives may
+contain official records, business records, images,
+letters, diplomas, etc. The most important principle
+of organization for this domain is the principle of
+provenance.
+Thus, it is essential to emphasize that archival knowledge or-
+ganization, compared to other fields related to KO is, above
+all, an intersection with distinctive characteristics. Therefore,
+it is a theoretical reflection in the first instance, as it studies
+the systems of knowledge organization in the universe of
+archives and their relations and points of contact, but there
+is also a methodological study as it seeks to systematize these
+points with regard to classification and archival descrip-
+tion—its application in the reality of the archives—from
+this correlation. Barros and Tognoli (2015, 95) point out
+that, “It is believed that it is possible to understand the work
+of archival representation as a form of organization of
+knowledge, that is, the Archival Science as an interdiscipli-
+nary area with the organization of knowledge.” In this con-
+text, several papers have discussed the relations between KO
+and archival science, such as Barros and Tognoli (2015), Bar-
+ros (2016), Barros and Gomes (2018), and Sousa and Araújo
+Jr. (2013 and 2017). We can also add several ISKO confer-
+ences, in which archival science researchers publish and pre-
+sent papers correlating aspects of KO with archival science.
+First, foundations of the organization and representation
+of knowledge are discussed, seeking to demarcate its field
+of action. Next, KO is correlated with archival theory in re-
+lation to classification and description. Finally, a parallel is
+established between them. The aim is proposing a possible
+approach between these areas.
+2.0 Archival science and knowledge organization:
+first approaches
+Knowledge organization as a field represents a specializa-
+tion for information science, that is, a socially and scientifi-
+cally institutionalized study stage within the area of infor-
+mation science, to discuss theories and methodologies re-
+lated to the various processes of representation and organi-
+zation. As Mazzocchi (2018, 55) postulates: “knowledge or-https://doi.org/10.5771/0943-7444-2019-7-493, am 17.01.2025, 06:30:39
+Open Access – - https://www.nomos-elibrary.de/agb
+Knowl. Org. 46(2019)No.7
+T. H. Bragato Barros and R. T. Barbosa de Sousa. Archival Science and Knowledge Organization
+495
+ganization ... as a distinct field, [is] considered today as sub-
+field (or as linked to library and information science).” It is,
+therefore, a field that will seek to study aspects of the con-
+struction of thesauri, controlled vocabularies, taxonomies,
+and ontologies, that is, a range of instruments-processes
+that seek the search and appropriation of knowledge, tradi-
+tionally linked to library and information science.
+Thus, processes traditionally linked to knowledge organ-
+ization and representation are linked to library and infor-
+mation science. In this regard, the methods of reading, anal-
+ysis, and construction of specialized languages are mostly
+related to this universe, but according to the trajectory of
+knowledge organization and representation, the main con-
+cern is the content and its representation of a given domain.
+Even though, in the case of archives, the context is the es-
+sential element of this organization through records prove-
+nance and its organic relation, we can improve the classifi-
+cation context with complementary tools based on KOSs.
+There is a very present need to discuss and apply content-
+based strategies representing a given administrative domain
+to its organization as a complementary tool for records
+management, classification, and description. As pointed out,
+it is not a shift from traditional archival science views; it’s an
+interrelation between fields.
+The process of construction of this field can be based
+on the authors pointed out by Mazzocchi (2018, 55): “Cutter
+(1837–1903), Richardson (1860–1939), Sayers (1881–1960)
+and, of course, Bliss (1870–1955), who used the term KO
+in two seminal books, The Organization of Knowledge and the
+System of the Sciences (1929), and The Organization of Knowledge
+in Libraries and the Subject-Approach to Books (1933).” Dahlberg
+is also a key author responsible for coining the concepts of
+KO currently approached in papers from the late 1970s and
+1980s, correlating the conceptual issues of the organization
+of human knowledge.
+According to Hjørland (2008), two large groups of
+tools-processes can characterize KO, namely: 1)
+knowledge organization and representation processes: in-
+dexing, cataloging, subject analysis, classification; and, 2)
+knowledge organization and representation systems gen-
+erated from/to these processes. The latter being primor-
+dial for the effective organization.
+According to Mazzocchi (2018) and Hjørland (2008), a
+knowledge organization system (KOS) makes it possible
+to understand that the systems and organizational concep-
+tions are fundamental for retrieval, but their biggest prob-
+lem is the rapid change that occurs on how society accesses
+and relates to knowledge and seeks information, how
+knowledge specializes itself. This difficult task common to
+KOSs also pervades the reality of archives. Such a move-
+ment can be seen in archives since the nineteenth century
+with the reordering of the French National Archives, aim-
+ing at the intellectual rearrangement of its fonds, until the
+development of systems of description in a web environ-
+ment. There are different ways in which we can apply
+KOSs; however, we can improve archival organization
+tools based on their application.
+Knowledge organization systems can include, accord-
+ing to Hodge (2000), classification schemes that organize
+materials at a general level, subject headings that provide
+more detailed access, and authority files that control vari-
+ant versions of key information. They also include less-
+traditional schemes, such as semantic networks and ontol-
+ogies; each of them having a distinct function and techno-
+logical foundation and used in a variety of social group-
+ings. The ultimate goal of knowledge organization systems
+is to fulfill KO’s mission: to facilitate management and ac-
+cess.
+Therefore, an integrative KOS is believed to aim at con-
+tributing beyond its field of action, aiming to assist in the
+construction of better knowledge organization systems
+within the archives. Hodge (2000, 1) endorses this perspec-
+tive:
+Knowledge organization systems also include highly
+structured vocabularies, such as thesauri, and less
+traditional schemes, such as semantic networks and
+ontologies. Because knowledge organization systems
+are mechanisms for organizing information, they are
+at the heart of every library, museum, and archive.
+Thus, KOSs are mechanisms, though they are not named
+as such, at the core of each system of archival organiza-
+tion, in the processes of classification and description.
+Souza et al. (2012) establish an interesting scheme to re-
+flect the various systems, their relationships, and develop-
+ments, as shown in Figure 1.
+From Figure 1, it is possible to notice the complex rep-
+resentation process involved in the systems of representa-
+tion of knowledge, depending on its structure, its semantic
+freedom, and the way in which the concepts/terms are for-
+mulated.
+The sizable spectrum and its possibilities are clear here.
+Thus, in relation to archives, we are mostly talking about
+KOSs, structured, complex, and with a semantic construc-
+tion. Such a perception is possible by the very form with
+which archival instruments are formulated, building a rela-
+tionship between context and content based on principles
+that are comprehensive and adaptable to each administra-
+tive body but citing what Duranti will call archival bond
+(1997), that is, the relationship that links each record, in-
+crementally, to the previous and subsequent records and to
+all records included in the same activity.
+Based on Souza et al., scheme, concept, and relation-
+ship structures are the ones that mostly apply to archival
+context, because of the characteristics specified in Table 1.https://doi.org/10.5771/0943-7444-2019-7-493, am 17.01.2025, 06:30:39
+Open Access – - https://www.nomos-elibrary.de/agb
+Knowl. Org. 46(2019)No.7
+T. H. Bragato Barros and R. T. Barbosa de Sousa. Archival Science and Knowledge Organization
+496
+Figure 1. A tentative set of types of KOS (Souza et al. 2012).
+Authors Concepts
+Almeida, Souza,
+and Fonseca 2011
+Representational power, semantic expressiveness, intelligibility (for humans), formalization
+(machine-oriented)
+Bergman 2007 Semantic strength, time/money
+Guarino 2006 Ontological precision
+Hodge 2000 Structure and complexity, relationship between terms, historical function
+Lassila and
+McGuinness 2001
+Ontology level (formality of semantic relationships), logical reasoning
+Obrst 2004;
+Daconta et al.
+2005
+Semantic strength
+Smith and Welty
+2001
+Complexity, logical reasoning
+Soergel 2001a and
+2001b
+Purpose, coverage of concepts and terms, sources, quality of usage analysis, conceptual analysis and conceptual
+structure, terminological analysis, use of precombination in the index language, access, and display, format of
+presentation of the vocabulary, updating
+Tudhope 2004 Entities (types, coordination, size, depth), relationships (types, expressiveness, formality), typical application to
+objects in domain of interest (purpose), relationship applying concepts to objects in domain
+Wright 2006
+and 2008
+Communities of practice, systematic resources, non-systematic resources, technology orientation, degrees of
+indeterminacy, language and knowledge-oriented standards, standards bodies
+Zeng 2008 Structure, semantic relationships/functions
+Table 1. Adapted from Souza et al.’s (2012) KOS dimensions proposed in the literature.https://doi.org/10.5771/0943-7444-2019-7-493, am 17.01.2025, 06:30:39
+Open Access – - https://www.nomos-elibrary.de/agb
+Knowl. Org. 46(2019)No.7
+T. H. Bragato Barros and R. T. Barbosa de Sousa. Archival Science and Knowledge Organization
+497
+Based on the table above, it is possible to conclude that a
+KOS has the following characteristics: 1) representative
+power (all KOSs have different levels of representative
+power); 2) formalization (different levels of formaliza-
+tion); 3) semantic aspects (they have terminological and
+conceptual relations); 4) normalization (there is a format
+in how we construct types of KOSs); and, 5) interrelation-
+ship (one KOS can complement another as a thesaurus can
+have relationships with an ontology).
+These are five things that most archival representation
+systems lack, especially semantic aspects and interrelation-
+ships. We have standards for classification and archival de-
+scriptions; however, these systems lack consideration of se-
+mantic aspects or interrelationships from one standard to
+another, from one country to another. That is a main issue
+and concern for these institutions, because users have a very
+particular interest when researching in archives. However,
+semantic aspects of KOSs can help to make our systems
+more favorable. A KOS serves as a bridge between the user’s
+information needs and the material in the collection.
+Therefore, it is possible to conclude that in general, all
+these aspects are related to the construction of systems,
+and it is believed that we can find them in the context of
+archival knowledge organization systems (AKOS). In the
+next section, we will argue more about these relationships.
+3.0 Knowledge organization in archival science
+The representation and organization of information con-
+tained in records indicate the existence of an administra-
+tive action. The organizational structure of a producer
+body is the foundation for the development and construc-
+tion of AKOSs. The ontologies, classification schemes, de-
+scriptions, and indexes created from this process will have
+a fundamental relationship with this aspect, but they are
+not subordinated only to them.
+Information science and archival science rely on the
+synthesis and summary resources of information to or-
+ganize and represent them (Barros and Martins 2015).
+Therefore, although the process foundation is different
+from that traditionally worked in the context of KO, in
+essence, they are close. The goals are the same, even if the
+path is different.
+Classification is traditionally defended as a fundamental
+function of archival science (Sousa 2003, 254 authors’ trans-
+lation)—“to delineate the process of management, organi-
+zation, and representation and in the context of the ar-
+chives, that is, the classification must have a very strong rep-
+resentative power.” Besides the fact that it is a system of or-
+ganization deeply formalized and hierarchical by nature, it
+also has semantic aspects in its structuring, standardization
+possibilities, and is part of an interchanged process, but ar-
+chival science hardly acknowledged that in its history.
+Eastwood (1994) and Duranti (1997) argue that only
+records together are archival records and evidence of the
+activities carried out by an institution, i.e., any document
+that is not organized by its function/activities, establishing
+a relationship with its origin (provenance) and its original
+order cannot be understood as an archival document, since
+the archival document only exists and makes sense in its
+relation to others. As RAD (Rules for Archival Description
+2008, xxiii) dilates “the principle of provenance means that
+the records created, accumulated and/or maintained by an
+individual or organization must be represented together,
+distinguishable from the records of any other creator.” It
+is believed that this perception is fundamental and is the
+basis for the system of organization and representation in
+the context of the archives, but this is not the only premise.
+The system in relation to its design is incomplete; there is
+room to work with ontologies or thesauri, which will help
+to improve its design as a system.
+The basic methodology for archival management and
+classification—the functional analysis— began in the
+1940s with Brooks (1940), Posner (1964), and it was sys-
+tematized in a more “complete” way in Schellenberg (1956
+[2003]). It consists of the basic conceptual elements and
+the premise of the system. It is precisely through this anal-
+ysis that AKOSs are built, and they can and should be
+complemented by taxonomies, ontologies, indexes, and
+other structured and related forms of KOS.
+In relation to the process, Foscarini (2006, 41) estab-
+lished that we could define it as a preliminary investigation,
+followed by top-down functional analysis and analysis of
+combined bottom-up processes.
+Functional classification is due to administrative stand-
+ardization and the development of bureaucracy since the
+end of World War II, leading to rationalization and, at the
+same time, an exponential increase in the complexity of
+production and use of legal-administrative documents.
+This change gives us the foundation to go beyond and
+think about the possible contributions of KO to archival
+science.
+According to Sabourin (2001, 144), a function is:
+any high level purpose, responsibility, task, or activity
+which is assigned to the accountability agenda of an
+institution by legislation, policy or mandate; (2) typi-
+cally common administrative or operational func-
+tions of policy development and program and/or
+delivery of goods or services; (3) a set or series of
+activities (broadly speaking, a business process)
+which, when carried out according to a prescribed
+sequence, will result in an institution or individual
+producing the expected results in goods or services
+that it is mandated or delegated to provide.https://doi.org/10.5771/0943-7444-2019-7-493, am 17.01.2025, 06:30:39
+Open Access – - https://www.nomos-elibrary.de/agb
+Knowl. Org. 46(2019)No.7
+T. H. Bragato Barros and R. T. Barbosa de Sousa. Archival Science and Knowledge Organization
+498
+Having the function as a premise of the system and func-
+tional analysis as a constituent element of the representa-
+tion system leaves room for it to go beyond the strictly
+contextual and allows a deepening toward the content and
+the decrease of subjectivity, as we see in Sousa and Araújo
+Jr. (2013 and 2017), when they approach the taxonomies,
+and in Barros and Gomes (2018) when approaching the
+ontologies.
+A key factor that makes it possible to apply a KOS in
+the context of public archives is that most organizational
+activities are repetitive in nature; they are instances of pro-
+cesses that run frequently.
+Some authors point out the problem that occurs in rela-
+tion not only to classification but to a recurrent problem in
+archival science that can be aided by a KOS: the naming of
+classes in research tools and classification schemes. Orr
+(2005, 111) established that “There is no common rule-
+based classification model, either in the number of elements
+or in the levels or in the naming of the classes.” Another
+recurring problem is the lack of deepening theories in rela-
+tion to methodologies of the field; according to Hurley
+(1993, 11) “The science and methodology of functional
+analysis has not yet been written.” Since the mid-1980s,
+studies have focused on conceptual questions but with few
+fundamentally methodological reflections. Shepherd and
+Yeo (2003, 73) write that “Classification schemes are based
+on an analysis of functions, processes, and activities” ISO
+15489-1 (2001, 14), which is a records management stand-
+ard, states: “Classification systems reflect the business of the
+organization from which they derive and are normally based
+on an analysis of the organization’s business activities,” and
+that has been the major concern in archival theory over time.
+But when we look to classification system itself as stated by
+Foscarini (2006, 191) “the number of classification systems
+that claim to be function-based, at a deeper glance turns out
+to be just a mirror of the agency’s internal structure” not
+reflecting the business functions.
+However, with that critique, there are principals and fun-
+damentals-based on functional analyses, but it is not the only
+classification answer possible. We have developed, as Sab-
+ourin (2001) or Bak (2010) dictated, a lot of case studies of
+functional analyses and the development of classification
+schemes but thinking only of classification’s functional basis
+even when the developed systems are not that functional.
+On the other hand, the archival description activity of
+recent conceptualization (since the 1980s) but of tradi-
+tional practice can be defined according to the Canadian
+Working Group on Archival Descriptive Standards (1985,
+65) as:
+The description is an essential function in the pro-
+cessing of archival material, and the products of this
+function are finding aids of various kinds that give
+the administrator control over their funds and allow
+users and archivists to find the information they
+need.
+The description began to develop during the nineteenth
+century, but it was only in the 1930s in Europe that de-
+scription began to be seen as the means of making the user
+independent of the archivist’s specialized knowledge, and
+aimed at compiling research tools for the user, not the ar-
+chivist. The activity of describing acquired a non-evalua-
+tive character seen as a consequence of the recognition of
+its products: to be useful for all kinds of research, it had
+to serve everyone and no one in particular.
+In general, the archival institution seeks to preserve the
+unique identity of records, aiming at maintaining them in
+a way that shows the relationships between the records and
+the institution that produced them, these common prac-
+tices are a basis for the descriptive work and a main con-
+cern since the very beginning.
+Archival description seeks relevant information to un-
+derstand the relationships between the identity of the doc-
+uments and their integrity as evidence of activity, seeking
+to build systems of archival representation.
+In this context, archival description was the function
+that went through the greater process of normalization, in
+a sense presented in the definitions of the framework of
+Souza (2012). Weber (1989, 505) explains: “What are
+norms? In a broad sense, they are pre-established guides
+for action or approved by a committee ... In other words,
+they are the way individuals compare and judge ... They are
+a means to a specific end.” We can, according to Table 2,
+visualize some of the various rules of archival description:
+National Instruments of Archival
+Description
+Counties
+Manual Archival Description (MAD) United
+Kingdom
+Rules for Archival Description (RAD) Canada
+General International Standard Archival
+Description (ISAD G)
+International
+Describing Archives:
+a Content Standard (DACS)
+USA
+Norma Española de Descripción
+Archivística (NEDA)
+Spain
+Norma Brasileira de Descrição
+Arquivística (NOBRADE)
+Brazil
+Orientações para a descrição
+arquivística (ODA)
+Portugal
+Norma Uruguaya de Descripción
+Archivística (NUDA)
+Uruguay
+Table 2. National Instruments of Archival Description (NIAD)
+(Linden, Barros, and Brascher 2017).https://doi.org/10.5771/0943-7444-2019-7-493, am 17.01.2025, 06:30:39
+Open Access – - https://www.nomos-elibrary.de/agb
+Knowl. Org. 46(2019)No.7
+T. H. Bragato Barros and R. T. Barbosa de Sousa. Archival Science and Knowledge Organization
+499
+Based on the table above, it is possible to visualize that the
+normalization in the context of the archives occurred as
+part of an international project and secondarily of national
+projects. Thus, AKOS reflects national contexts and reali-
+ties, and this difference is fundamental to be highlighted.
+When we speak of systems of organization of archival
+knowledge, we are mainly talking about systems with dis-
+tinct regional characteristics that must be taken into ac-
+count in the elaboration of systems.
+Archival description has been differently developed
+from one country to another, due to their different admin-
+istrative cultures. With that in mind, the same goes for the
+development of classification schemes, but records are the
+products of activities developed by a person or entity in
+the execution of a function.
+Based on Tognoli and Guimarães (2019), to understand
+this process means to comprehend the network of rela-
+tions between objects, agents (creators—individuals or in-
+stitutions) and functions (the actions necessary to the ac-
+complishment of attribution within the scope of an ad-
+ministrative structure) as determinative elements to recog-
+nize the archival bond. That is why a record can never be
+conceived as an isolated element, especially because the
+recognition of the provenance of a record allows it to be
+used as evidence of activities.
+Based on the literature and the text constructed in this
+section, we created Figure 2:
+Based on this figure, it is possible to notice that the pro-
+cesses of representation in the archival context can be im-
+proved with reflections and methodologies extracted from
+the context of KO specifically when thinking about KOSs.
+The development of ontologies and taxonomies-based
+studies herein has major applications in archival classifica-
+tion for the development of better systems. When we talk
+about archival description, we can see major applications
+of folksonomies and controlled vocabularies in a relation
+of context and content. Almost all archival representation
+systems lack all that KO does best: domain analyses and
+KOS construction. As we pointed out, we need to work
+with these methodologies, even more important in the cur-
+rent status of digital records management and production.
+4.0 Conclusions
+The organization and representation of knowledge is a
+field that contributes fundamentally to the development of
+methodologies for accessing information. In this regard, a
+series of developments have been presented for the devel-
+opment of languages, structures, classifications, that is,
+systems of knowledge organization. On the other hand,
+archival science has developed in parallel, but in many mo-
+ments seeking interlocutions although superficial or even
+unintentional with the field of knowledge organization, as
+is the case with the development of some requirements of
+archival description standards, ontologies, taxonomies,
+controlled vocabularies, among others.
+The representation and organization of information
+contained in a record indicate the possibility of the exist-
+ence of an administrative action. The organizational struc-
+ture of a production entity is the basis for the elaboration
+and construction of the archival description and classifica-
+tion systems, i.e., the ontologies, classification schemes, de-
+Figure 2. Process of representation and organization of archival knowledge.https://doi.org/10.5771/0943-7444-2019-7-493, am 17.01.2025, 06:30:39
+Open Access – - https://www.nomos-elibrary.de/agb
+Knowl. Org. 46(2019)No.7
+T. H. Bragato Barros and R. T. Barbosa de Sousa. Archival Science and Knowledge Organization
+500
+scriptions, controlled vocabularies, and indexes created
+from this process will have a fundamental relationship with
+this aspect but are not subsidized only to them. As Yakel
+(2003, 2) points out, representation refers to the two pro-
+cesses of classification (respecting or disrespecting the or-
+der) and description, as well as the creation of research in-
+struments (guides, inventories, catalogs) and systems (cat-
+alogs, bibliographic databases, and archival databases) re-
+sulting from these activities. It is clear how the creation of
+substitutes relates to representation.
+Archival science has a recent theoretical development re-
+garding its conceptual bases and its methodological devel-
+opment. The aim was to present integrative processes of ar-
+chival science theory, capable of relations with knowledge
+organization, aiming at an appropriation by both fields.
+Since the archives become a space of application of
+knowledge organization methodologies and archival science
+has a new space for discussion of its historical-conceptual
+precepts, it is horizontal, that is, two fields with a possibility
+of intersection. Knowledge organization is a space for im-
+proving the organization processes typically linked to scien-
+tific information and its developments, and it is organized
+internationally as such. However, it presents methodologies,
+approaches, and foundations that are very important for the
+organization in the archival science environment. Although
+with their methodologies and objects, no field is isolated; it
+is in a relationship with each other that we can improve our
+treatment methodologies.
+References
+Bak, Greg. 2010. “La clasificación de documentos elec-
+trónicos: documentando relaciones entre documentos.”
+Tabula 13: 59-70.
+Barros, Thiago H. B. and Natália Tognoli. 2015. “Os pro-
+cessos de representação do conhecimento arquivístico:
+elementos históricos e conceituais da classificação e de-
+scrição.” In Organização do Conhecimento e Diversidade Cul-
+tural, ed. by José Augusto C. Guimarães and Vera Do-
+debei. Estudos Avançados e Organização do Conheci-
+mento 3. Marília: ISKO-Brasil; FUNDEPE, 94-99.
+Barros, Thiago H. B. 2016. “A indexação e a arquivística:
+aproximações iniciais no Universo teórico da organi-
+zação e representação do conhecimento.” Encontros Bibli:
+Revista Eletrônica de Biblioteconomia e Ciência da Informação
+21: 33-44.
+Barros, Thiago H. B. and Daniel Libonati. 2018. “Classifi-
+cation and Knowledge Organization Systems: Ontolo-
+gies and Archival Classification.” In Challenges and Op-
+portunities for Knowledge Organization in the Digital Age: Pro-
+ceedings of the fifteenth International ISKO Conference 9-11
+July 2018 Porto, Portugal, ed. by Fernanda Ribeiro. Ad-
+vances in Knowledge Organization 14. Würzburg: Er-
+gon, 103-11.
+Barros, Thiago H.B. and Wanessa Martins. 2017. “A in-
+formação orgânica enquanto um objeto interdisciplinar:
+As relações entre a arquivística e a ciência da informação
+no âmbito da representação em arquivos.” A ́gora 25, no.
+51: 132-49.
+Bureau of Canadian Archivists. 1985. Toward Descriptive
+Standards: Report and Recommendations of the Canadian
+Working Group on Archival Descriptive Standards. Ottawa:
+Bureau of Canadian Archivists.
+Brooks, Philip C. 1940. “The Selection of Records for
+Preservation.” The American Archivist 3, no. 4: 221-34.
+Dahlberg, Ingetraut. 1993. “Knowledge Organization: its
+Scope and Possibilities.” Knowledge Organization 20: 211-
+22.
+Duranti, Luciana. 1997. “The Archival Bond.” Archives and
+Museum Informatics 11, no. 3/4: 213-18.
+Duranti, Luciana. 1993. “Origin and Development of the
+Concept of Archival Description.” Archivaria 35: 47-54.
+Eastwood, Terry. 1994. “What Is Archival Theory and Why
+Is It Important?” Archivaria 37: 122-30.
+Esteban Navarro, M. A. and Francisco J. Garcia Marco.1995.
+“Las primeras jornadas sobre organización del conoci-
+miento: organización del conocimiento e información
+científica.” Scire 1: 149-57.
+Foscarini, Fiorella. 2006. “Records Classification and
+Functions: An Archival Perspective.” Knowledge Organi-
+zation 33: 188-98.
+Hjørland, Birger. 2008. “What is Knowledge Organization
+(KO)?” Knowledge Organization 35: 86-101.
+Hjørland, Birger. 2016. “Knowledge Organization.”
+Knowledge Organization 43: 475-84.
+Hodge, Gail. 2000. Systems of Knowledge Organization for Dig-
+ital Libraries: Beyond Traditional Authority Files. Washing-
+ton: Digital Library Federation; Council on Library and
+Information Resources.
+Hurley, Chris. 1993. “What, if Anything, Is a Function?”
+Archives and Manuscripts 21: 208-20.
+ISO (International Organization for Standardization). 2001.
+“Information and Documentation: Records Management; Part 1
+General.” PD ISO/TR 15489-1: 2001. Geneva: Interna-
+tional Organization for Standardization.
+Linden, Luana L., Thiago H. B. Barros and Marisa Bräscher
+2017. “Normas de descrição arquivística: Uma análise
+comparativa no âmbito do conteúdo e contexto.” IRIS –
+Revista de Informação, Memória e Tecnologia 3, no. 1: 45-55.
+Mazzocchi, Fulvio. 2018. “Knowledge Organization System
+(KOS): An Introductory Critical Account.” Knowledge Or-
+ganization 45: 54-78.https://doi.org/10.5771/0943-7444-2019-7-493, am 17.01.2025, 06:30:39
+Open Access – - https://www.nomos-elibrary.de/agb
+Knowl. Org. 46(2019)No.7
+T. H. Bragato Barros and R. T. Barbosa de Sousa. Archival Science and Knowledge Organization
+501
+Orr, Samuels A. 2005. “Functional-based Classification of
+Records: Is It Functional?” MA thesis, Northumbria
+University.
+Posner, Ernest. 1964. “American State Archives.” Chicago:
+University of Chicago Press.
+Rules for Archival Description. 2008. Revised version. Ottawa:
+Bureau of Canadian Archivists. http://www.cdncoun
+cilarchives.ca/RAD/RADComplete_July2008.pdf
+Sabourin, Paul. 2001. “Constructing a Functional-Bases
+Records Classification System: Business Activity Struc-
+ture Classification System.” Archivaria 51: 137-54.
+Schellenberg, Theodore R. 1939. European Archival Practices
+in Arranging Records. Staff Information Circulars 5.
+[Washington]: National Archives.
+Schellenberg, Theodore R. 2003. Modern Archives: Principles
+and Techniques. Chicago: Society of American Archivists.
+Shepherd, E G. Yeo. 2003. “Managing Records: A Hand-
+book of Principles and Practice.” London: Facet.
+Souza, Renato R., Douglas Tudhope and Maurício Al-
+meida. 2012. “Towards a Taxonomy of KOS.” Knowledge
+Organization 39: 179-92
+Sousa, Renato. 2003. “Os princípios arquivísticos e o con-
+ceito de classificação.” In Organização e Representação do
+Conhecimento, ed. by Georgete Rodrigues and Ilza Leite
+Lopes. Brasília: Thesaurus, 240-69.
+Sousa, Renato and Rogério Araújo Júnior. 2013. “A classi-
+ficação e a taxonomia como instrumentos efetivos para
+a recuperação da informação arquivística.” Ciência da In-
+formação 42, no. 1: 131-44.
+Sousa, Renato and Rogério Araújo Júnior. 2017. “A in-
+dexação e criação de taxonomias para documentos de
+arquivo: proposta para a expansão do acesso e inte-
+gração das fontes de informação.” Brazilian Journal of
+Information Science: Research Trends 11, no. 4: 47-56.
+Tognoli, Natalia and José Augusto Guimarães. 2019.
+“Provenance.” Knowledge Organization 46: 558-68.
+Weber, Lisa. 1989. “Archival Description Standards: Con-
+cepts, Principles and Methodologies.” American Archi-
+vists 55, no. 2: 10-20.
+Yakel, Elizabeth. 2003. “Archival Representation.” Archival
+Science 3, no. 1: 1-25
